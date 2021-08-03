@@ -1,0 +1,23 @@
+.book-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .book-container .mat-form-field {
+    width: 220px;
+  }
+  
+  .book-container form {
+    margin-bottom: 20px;
+  }
+  
+  .book-container form > * {
+    margin: 5px 0;
+  }
+
+  #textarea{
+    width: 100% !important;
+  }
+
+  .book-card{
+    margin-left: 15px;
+  }
