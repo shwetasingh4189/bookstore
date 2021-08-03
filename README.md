@@ -8,12 +8,11 @@ Bookstore is an application to get book information. Front end is build on angul
 Install docker in your local from https://www.docker.com/products/docker-desktop
 
 ## Build docker image
-docker build --pull --rm -f "Dockerfile" -t bookstoreapp:v1 "."
+docker build "Dockerfile" -t bookstoreapp:v1 "."
 
 ## Run docker 
 docker run -it -p 3090:3090/tcp bookstoreapp:v1
 
-docker run -it -p  3080:3080 --name ang-node-ui angular-node-image
 
 ## Other docker commands 
 To list all the images running: docker ps
